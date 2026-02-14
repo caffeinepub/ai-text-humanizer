@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up ThemeProvider, renders the header, main humanizer page, footer, and toast notifications.",
+  "frontend/src/pages/HumanizerPage.tsx": "Core page component with AI text detection, result parsing for multiple response formats (OpenAI moderation API and generic JSON), enhanced error display with separate alerts for results and errors, and improved user feedback for detection states.",
+  "frontend/src/components/Header.tsx": "Header component with app branding (logo and title) and theme toggle button for switching between light and dark modes.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright notice and attribution link to caffeine.ai with a heart icon.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend operations with enhanced error handling for useDetectAI including network failures, invalid responses, and service unavailability, plus useHumanizeText for text transformation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring a purple/violet primary color scheme and pink accent colors for both light and dark modes.",
+  "frontend/src/hooks/useEditor.ts": "Placeholder file for editor initialization functionality (currently empty but required by main.tsx)."
+}
